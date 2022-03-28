@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# User
+.env
+git_cmd.txt
+
