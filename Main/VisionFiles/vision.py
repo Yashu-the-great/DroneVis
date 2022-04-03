@@ -76,12 +76,3 @@ def recognise(process_this_frame, fl):
                 cv2.destroyAllWindows()
                 break
             return ((int((right + left) / 2), int((top + bottom) / 2)), d)
-
-
-def main(process_this_frame, fl):
-    print(recognise(process_this_frame, fl))
-
-
-if __name__ == "__main__":
-    while True:
-        main(process_this_frame, fl)
